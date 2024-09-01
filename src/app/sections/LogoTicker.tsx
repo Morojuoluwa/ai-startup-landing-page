@@ -9,7 +9,7 @@ import echoLogo from '@/assets/logo-echo.png'
 
 const LogoTicker = () => {
   return (
-   <section className='py-10 md:px-20'>
+   <section className='py-10'>
     <div className='container px-7'>
         <div className='flex items-center gap-5'>
             <div className=' flex-1 md:flex-none'>

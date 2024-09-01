@@ -32,7 +32,7 @@ const tabs = [
   ];
   
   export const Features = () => {
-    return <section className="py-20 px-7 md:px-24">
+    return <section className="py-20">
         <div className="container">
             <h2 className=" text-5xl md:text-6xl font-medium text-center tracking-tighter">Elevate your SEO efforts</h2>
             <p className=" text-white/70 md:text-xl max-w-2xl mx-auto text-lg tracking-tight text-center mt-5">From small startups to large enterprises, our AI-driven tool has revolutionized the way businesses approach SEO</p>
