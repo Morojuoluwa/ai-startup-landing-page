@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import LogoImg from '@/assets/logo.svg'
 import Xsocial from '@/assets/social-x.svg'
@@ -14,16 +14,14 @@ const Footer = () => {
           <div className=' flex gap-2 items-center lg:flex-1'>
             <LogoImg className='h-6 w-6'/>
             <div className='font-medium'>AI startup Landing page</div>
-          </div>
-          
+          </div>          
             <nav className='flex flex-col gap-5 lg:flex-row lg:gap-7 lg:flex-1 lg:justify-center'>
               <a href="#" className='text-white/70 transition md:text-sm hover:text-white text-xs'>Features</a>
               <a href="#" className='text-white/70 transition md:text-sm hover:text-white text-xs'>Developers</a>
               <a href="#" className='text-white/70 transition md:text-sm hover:text-white text-xs'>Company</a>
               <a href="#" className='text-white/70 transition md:text-sm hover:text-white text-xs'>Blog</a>
               <a href="#" className='text-white/70 transition md:text-sm hover:text-white text-xs'>ChangeLog</a>
-            </nav>
-         
+            </nav>         
           <div className='flex lg:flex-1 lg:justify-end gap-5'>
             <Xsocial className=' text-white/40 hover:text-white transition'/>
             <InstaSocial className=' text-white/40 hover:text-white transition'/>
