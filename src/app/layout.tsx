@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "AI startup Landing Page",
   description: "A landing page for an AI startup",
+  icons:{
+    icon:'/pato.png'
+  }
 };
 
 export default function RootLayout({
